@@ -1,0 +1,12 @@
+---
+
+version: 5
+
+defaults:
+  datadir: '/home/leon'
+  data_hash: yaml_data
+
+hierarchy:
+  - name: "Other YAML hierarchy levels" 
+    paths:
+      - "common.yaml"
