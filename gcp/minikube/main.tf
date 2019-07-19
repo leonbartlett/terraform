@@ -13,7 +13,7 @@ resource "random_id" "instance_id" {
 data "google_compute_image" "my_image" {
   project  = "ubuntu-os-cloud"
   family = "ubuntu-1604-lts"
-  licenses = [ "https://www.googleapis.com/compute/v1/projects/vm-options/global/licenses/enable-vmx", ]
+  #licenses = [ "https://www.googleapis.com/compute/v1/projects/vm-options/global/licenses/enable-vmx", ]
 }
 
 // A single Google Cloud Engine instance
